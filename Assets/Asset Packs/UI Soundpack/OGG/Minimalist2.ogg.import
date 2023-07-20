@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://o8gwuoxt3ctf"
+path="res://.godot/imported/Minimalist2.ogg-fa6e627c1106d793641a4c8e204aa93a.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Asset Packs/UI Soundpack/OGG/Minimalist2.ogg"
+dest_files=["res://.godot/imported/Minimalist2.ogg-fa6e627c1106d793641a4c8e204aa93a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
