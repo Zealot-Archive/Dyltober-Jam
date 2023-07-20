@@ -15,7 +15,8 @@ func _process(delta):
 func ModifyMaxHP():
 	pass
 
-func TakeDamage():
+func TakeDamage(damage):
+	CurrentHealth = CurrentHealth - damage
 	pass
 
 func HealDamage():
