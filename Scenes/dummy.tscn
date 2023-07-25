@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckcunpyaxk0s5"]
+
+[ext_resource type="Texture2D" uid="uid://c1reyny7hfjmp" path="res://Assets/Enemies/Sprites/Allied_Target_Dummy_Render.webp" id="1_6hgfc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p0xmi"]
+size = Vector2(128, 256)
+
+[node name="Dummy" type="CharacterBody2D"]
+
+[node name="Hitbox" type="CollisionShape2D" parent="."]
+position = Vector2(64, 128)
+shape = SubResource("RectangleShape2D_p0xmi")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(64, 128.25)
+scale = Vector2(0.412903, 0.326726)
+texture = ExtResource("1_6hgfc")
