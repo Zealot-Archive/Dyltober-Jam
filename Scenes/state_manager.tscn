@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cttbqd5iqlnck"]
+[gd_scene load_steps=8 format=3 uid="uid://cttbqd5iqlnck"]
 
 [ext_resource type="Script" path="res://Scripts/state_manager.gd" id="1_aie35"]
 [ext_resource type="Script" path="res://Scripts/States/Idle.gd" id="2_qpt4t"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://Scripts/States/Air.gd" id="4_cwrpb"]
 [ext_resource type="Script" path="res://Scripts/States/WallHang.gd" id="5_iq4gj"]
 [ext_resource type="Script" path="res://Scripts/States/Run.gd" id="6_h71ul"]
+[ext_resource type="Script" path="res://Scripts/States/Attack.gd" id="7_e3c2h"]
 
 [node name="State_Manager" type="Node2D" node_paths=PackedStringArray("initial_state")]
 script = ExtResource("1_aie35")
@@ -25,3 +26,6 @@ script = ExtResource("5_iq4gj")
 
 [node name="Run" type="Node2D" parent="."]
 script = ExtResource("6_h71ul")
+
+[node name="Attack" type="Node2D" parent="."]
+script = ExtResource("7_e3c2h")
